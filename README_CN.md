@@ -1,8 +1,6 @@
-[![Build Status](https://travis-ci.org/DNAProject/DNA.svg?branch=master)](https://travis-ci.org/DNAProject/DNA)
+# Ontology_Zero (Distributed Networks Architecture)
 
-# DNA (Distributed Networks Architecture)
-
-DNA是go语言实现的基于区块链技术的去中心化的分布式网络协议。可以用来数字化资产和金融相关业务包括资产注册，发行，转账等。
+Ontology_Zero是go语言实现的基于区块链技术的去中心化的分布式网络协议。是基于DNA做的开发，可以用来数字化资产和金融相关业务包括资产注册，发行，转账等。
 
 ## 特性
 
@@ -20,24 +18,24 @@ DNA是go语言实现的基于区块链技术的去中心化的分布式网络协
 * 可配置的分区共识(进行中)
 
 # 编译
-成功编译DNA需要以下准备：
+成功编译Ontology_Zero需要以下准备：
 
 * Go版本在1.8及以上
 * 安装第三方包管理工具glide
 * 正确的Go语言开发环境
 
-克隆DNA仓库到$GOPATH/src目录
+克隆Ontology_Zero仓库到$GOPATH/src目录
 
 
 ```shell
-$ git clone https://github.com/DNAProject/DNA.git
+$ git clone https://github.com/dappledger/Ontology_Zero.git
 ```
 
 用第三方包管理工具glide拉取依赖库
 
 
 ````shell
-$ cd DNA
+$ cd Ontology_Zero
 $ glide install
 ````
 
@@ -54,7 +52,7 @@ $ make
 
 # 部署
 
-成功运行DNA需要至少4个节点，可以通过两种方式进行部署
+成功运行Ontology_Zero需要至少4个节点，可以通过两种方式进行部署
 
 * 多机部署
 * 单机部署
@@ -263,7 +261,7 @@ $ ./node
 $ - 输入你的钱包口令
 ```
 
-## 在开放公共环境中测试DNA
+## 在开放公共环境中测试Ontology_Zero
  
 1. 交易 :
 ```
@@ -291,7 +289,7 @@ $ - 输入你的钱包口令
 
 ## 测试环境
 
-我们在云上部署了DNA供大家使用
+我们在云上部署了Ontology_Zero供大家使用
 
 主要功能包括：
 1. 区块链相关信息查询
@@ -306,7 +304,7 @@ $ - 输入你的钱包口令
 
 使用方式参见：
 
-[forum.DNAProject.com/DNA节点控制工具](https://forum.dnaproject.org/t/dna-nodectl/57)
+[forum.Ontology_ZeroProject.com/Ontology_Zero节点控制工具](https://forum.Ontology_Zeroproject.org/t/Ontology_Zero-nodectl/57)
 
 可用节点如下：
 ```
@@ -322,56 +320,35 @@ IP               PORT
 # 贡献代码
 
 请您以签过名的commit发送pull request请求，我们期待您的加入！
-您也可以通过邮件的方式发送你的代码到开发者邮件列表，欢迎加入DNA邮件列表和开发者论坛。
+您也可以通过邮件的方式发送你的代码到开发者邮件列表，欢迎加入Ontology_Zero邮件列表和开发者论坛。
 
 另外，在您想为本项目贡献代码时请提供详细的提交信息，格式参考如下：
 
-	Header line: explain the commit in one line (use the imperative)
+  Header line: explain the commit in one line (use the imperative)
 
-	Body of commit message is a few lines of text, explaining things
-	in more detail, possibly giving some background about the issue
-	being fixed, etc etc.
+  Body of commit message is a few lines of text, explaining things
+  in more detail, possibly giving some background about the issue
+  being fixed, etc etc.
 
-	The body of the commit message can be several paragraphs, and
-	please do proper word-wrap and keep columns shorter than about
-	74 characters or so. That way "git log" will show things
-	nicely even when it's indented.
+  The body of the commit message can be several paragraphs, and
+  please do proper word-wrap and keep columns shorter than about
+  74 characters or so. That way "git log" will show things
+  nicely even when it's indented.
 
-	Make sure you explain your solution and why you're doing what you're
-	doing, as opposed to describing what you're doing. Reviewers and your
-	future self can read the patch, but might not understand why a
-	particular solution was implemented.
+  Make sure you explain your solution and why you're doing what you're
+  doing, as opposed to describing what you're doing. Reviewers and your
+  future self can read the patch, but might not understand why a
+  particular solution was implemented.
 
-	Reported-by: whoever-reported-it
-	Signed-off-by: Your Name <youremail@yourhost.com>
+  Reported-by: whoever-reported-it
+  Signed-off-by: Your Name <youremail@yourhost.com>
 
 # 开源社区
 
-## 邮件列表
-
-我们为开发者提供了一下邮件列表
-
-- OnchainDNA@googlegroups.com
-
-可以通过两种方式订阅并参与讨论
-
-- 发送任何内容到邮箱地址 OnchainDNA+subscribe@googlegroups.com
-
-- 登录 https://groups.google.com/forum/#!forum/OnchainDNA 
-
-
 ## 网站
 
-- https://www.DNAproject.org
-
-## 论坛
-
-- https://forum.DNAproject.org
-
-## Wiki
-
-- https://wiki.DNAproject.org
+- http://www.onchain.com/
 
 # 许可证
 
-DNA遵守Apache License, 版本2.0。 详细信息请查看项目根目录下的LICENSE文件。
+Ontology_Zero遵守GNU Lesser General Public License, 版本3.0。 详细信息请查看项目根目录下的LICENSE文件。
