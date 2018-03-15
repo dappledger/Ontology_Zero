@@ -1,8 +1,6 @@
-[![Build Status](https://travis-ci.org/DNAProject/DNA.svg?branch=master)](https://travis-ci.org/DNAProject/DNA)
+# Ontology_Zero
 
-# DNA (Distributed Networks Architecture)
-
- DNA is a decentralized distributed network protocol based on blockchain technology and is implemented in Golang. Through peer-to-peer network, DNA can be used to digitize assets and provide financial service, including asset registration, issuance, transfer, etc.
+ Ontology_Zero is a decentralized distributed network protocol based on blockchain technology and developed base on DNA(Distributed Networks Architecture). Through peer-to-peer network, Ontology_Zero can be used to digitize assets and provide financial service, including asset registration, issuance, transfer, etc.
 
 ## Highlight Features
 
@@ -21,16 +19,16 @@
 
 
 # Building
-The requirements to build DNA are:
+The requirements to build Ontology_Zero are:
  *	Go version 1.8 or later
  *	Glide (a third-party package management tool)
  *	Properly configured Go environment
  
-Clone the DNA repository into the appropriate $GOPATH/src directory.
+Clone the Ontology_Zero repository into the appropriate $GOPATH/src directory.
 
 
 ```shell
-$ git clone https://github.com/DNAProject/DNA.git
+$ git clone https://github.com/dappledger/Ontology_Zero.git
 
 ```
 
@@ -38,7 +36,7 @@ Fetch the dependent third-party packages with glide.
 
 
 ````shell
-$ cd DNA
+$ cd Ontology_Zero
 $ glide install
 ````
 Build the source code with make.
@@ -57,7 +55,7 @@ Follow the procedures in Deployment section to give them a shot!
 
 # Deployment
  
-To run DNA successfully, at least 4 nodes are required. The four nodes can be deployed in the following two way:
+To run Ontology_Zero successfully, at least 4 nodes are required. The four nodes can be deployed in the following two way:
 
 * multi-hosts deployment
 * single-host deployment
@@ -245,7 +243,7 @@ $ ./node
 $ - input you wallet password
 ```
 
-## Testing DNA in an open environment
+## Testing Ontology_Zero in an open environment
  
  We also provide an open testing environment. It supports the operation below:
 
@@ -286,12 +284,12 @@ IP               PORT
 
 # Contributing
 
-Can I contribute patches to DNA project?
+Can I contribute patches to Ontology_Zero project?
 
 Yes! Please open a pull request with signed-off commits. We appreciate your help!
 
 You can also send your patches as emails to the developer mailing list.
-Please join the DNA mailing list or forum and talk to us about it.
+Please join the Ontology_Zero mailing list or forum and talk to us about it.
 
 Either way, if you don't sign off your patches, we will not accept them.
 This means adding a line that says "Signed-off-by: Name <email>" at the
@@ -322,31 +320,10 @@ looks like this:
 
 # Community
 
-## Mailing list
-
-We have a mailing list for developers:
-
-* OnchainDNA@googlegroups.com
-
-We provide two ways to subscribe:
-
-* Send any contents to the email OnchainDNA+subscribe@googlegroups.com
-
-* Sign in https://groups.google.com/forum/#!forum/OnchainDNA
-
-
 ## Site
 
-* https://www.DNAproject.org
-
-## Forum
-
-* https://forum.DNAproject.org
-
-## Wiki
-
-* https://wiki.DNAproject.org
+* http://www.onchain.com/
 
 # License
 
-DNA is licensed under the Apache License, Version 2.0. See LICENSE for the full license text.
+The Ontology_Zero library (i.e. all code outside of the cmd directory) is licensed under the GNU Lesser General Public License v3.0, also included in our repository in the License file.
