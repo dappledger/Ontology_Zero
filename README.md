@@ -6,15 +6,13 @@
 
  *	Scalable Lightweight Universal Smart Contract
  *	Crosschain Interactive Protocol
- *	Quantum-Resistant Cryptography (optional module)
- *	China National Crypto Standard (optional module)
+ *	No cryptocurrency Standard (optional module)
  *	High Optimization of TPS
  *	Distributed Storage and File Sharding Solutions Based on IPFS
  *	P2P Link Layer Encryption
  *	Node Access Control
  *	Multiple Consensus Algorithm Support (DBFT/RBFT/SBFT)
  *	Configurable Block Generation Time
- *	Configurable Digital Currency Incentive
  *	Configable Sharding Consensus (in progress)
 
 
